@@ -1,0 +1,90 @@
+.bag {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 500px;
+   overflow: auto;
+   height: 100%;
+}
+
+.header__bag {
+   font-size: medium;
+   font-weight: 500;
+   font-size: 40px;
+   display: flex;
+   flex-wrap: wrap;
+   padding-top: 80px;
+}
+
+.wrapper__bag__img {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.bottom__quantity {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 24px;
+}
+
+.bag__block__img {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.bag__block__img img {
+   width: 79px;
+   height: 79px;
+   border-radius: 12px;
+   background-color: #fff;
+   margin-right: 12px;
+   margin-top: 20px;
+   padding: 8px;
+   object-fit: contain;
+}
+
+.button_bag {
+   padding-top: 30px;
+}
+
+.delite__bag {
+   width: 20px;
+   height: 20px;
+   background-color: orange;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 10px;
+
+}
+
+.span {
+   display: block;
+   width: 15px;
+   height: 3px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+
+.span::before {
+   display: block;
+   content: "";
+   width: 15px;
+   height: 3px;
+   background-color: black;
+   transform: rotate(-90deg);
+}
+
+.quantity {
+   display: flex;
+   justify-content: space-around;
+   font-weight: 600;
+   margin-left: 30px;
+}
+
+.bag_total {
+   margin-top: 34px;
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+body {
+   padding: 0px;
+   margin: 0px;
+}
+
+.app {
+   font-family: 'Cabin', sans-serif;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
+   background: #EDEDED;
+   height: 100vh;
+
+}
+
+
+
+.content_global {
+   width: 100%;
+   display: flex;
+   height: 100%;
+}
+
+.Content {
+   display: flex;
+   width: 100%;
+   overflow: auto;
+}
+
+.content__wrapper {
+
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+
+
+
+}
+
+.wrapper-block__input {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.content-block-input {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.string__Search {
+   font-weight: 400;
+   font-size: 16px;
+   color: #60695C;
+   display: flex;
+
+}
+
+.input-header {
+   position: ;
+   width: 100%;
+   max-width: 507px;
+   min-width: 200px;
+   padding-top: 28px;
+   padding-bottom: 20px;
+   border-radius: 13px;
+   box-shadow: 0px 4px 16px rgba(26, 31, 22, 0.15);
+   border: 0px;
+}
+
+.input-header::-webkit-input-placeholder {
+   font-family: 'Cabin' sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+   color: rgba(26, 31, 22, 0.5);
+   text-align: center;
+
+}
+
+.block__item {
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.line {
+
+   width: 4px;
+   background-color: rgba(26, 31, 22, 0.5);
+   margin: 40px;
+
+}

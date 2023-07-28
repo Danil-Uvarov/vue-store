@@ -1,0 +1,103 @@
+input[class*="input"] {
+   margin-top: 8px;
+   max-height: 56px;
+   height: 100%;
+   padding: 16px 24px;
+   border-radius: 13px;
+   border: 2px solid #ffff;
+   box-shadow: 0px 4px 16px rgba(26, 31, 22, 0.15);
+}
+
+input::placeholder[class*="input"] {
+   color: rgba(26, 31, 22, 0.5);
+   font-size: 20px;
+   font-weight: 400;
+
+}
+
+div[class*="block"] {
+   display: flex;
+   flex-direction: column;
+   padding-top: 24px;
+}
+
+span[class*="label"] {
+   font-weight: 400;
+   font-size: 16px;
+   color: rgba(26, 31, 22, 0.5);
+}
+
+
+
+.add-Address {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+
+}
+
+.wrapper-address {
+   max-width: 676px;
+   width: 100%;
+   background-color: #fff;
+   border-radius: 15px;
+   padding: 40px;
+   margin-top: 95px;
+
+}
+
+.save {
+   padding-top: 24px;
+   padding: 16px 8px;
+   display: flex;
+   gap: 10px;
+}
+
+.checkbox {}
+
+.checkbox-span {
+   font-size: 20px;
+   font-weight: 400;
+   color: rgba(26, 31, 22, 0.5);
+}
+
+.button-addAddress {
+   margin-top: 32px;
+   width: 100%;
+   padding: 8px 0px;
+   align-items: center;
+   background-color: #1A1F16;
+   color: #fff;
+   border-radius: 10px;
+}
+
+.information {
+   margin-top: 32px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.button-back-payment {
+   font-weight: 400;
+   font-size: 16px;
+   padding: 8px 24px;
+}
+
+.info {
+   display: flex;
+   gap: 11px;
+
+}
+
+.info img {
+   width: 16px;
+   height: 22px;
+   object-fit: contain;
+}
+
+.secure_connection {
+   font-weight: 400;
+   font-size: 16px;
+   color: #02D693;
+}

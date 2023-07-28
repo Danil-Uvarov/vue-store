@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+.Product {
+   display: flex;
+   flex-direction: column;
+   margin-left: 58px;
+   margin-right: 44px;
+   overflow: auto;
+   width: 100%;
+}
+
+
+
+.button_back {
+
+   margin: 56px 0px 24px 4px;
+   width: 88px;
+   height: 40px;
+   border: 2px solid #EDEDED;
+
+}
+
+
+
+.button_back p {
+   font-weight: 400;
+   font-size: 20px;
+   color: #1A1F16;
+   white-space: nowrap;
+
+}
+
+.top_area {
+   display: flex;
+}
+
+.image-top_area {
+   display: flex;
+}
+
+.button_back {
+   display: flex;
+}
+
+.button_back p {
+   margin: 6px;
+   font-weight: 600;
+}
+
+.button_back div {
+   margin: 3px;
+   font-weight: 800;
+}
+
+.image-gallery {
+   display: flex;
+   flex-direction: column;
+}
+
+.image-gallery img {
+   border-radius: 13px;
+   padding: 8px;
+   margin: 0px 16px 24px 0px;
+   width: 34px;
+   height: 42px;
+   object-fit: contain;
+   background-color: #fff;
+}
+
+.main-image {
+   padding: 8px;
+   border-radius: 13px;
+   width: 242px;
+   height: 302px;
+   object-fit: contain;
+   background-color: #fff;
+}
+
+.text-content {
+   display: flex;
+   flex-direction: column;
+   margin-left: 40px;
+}
+
+.header_text-content {
+   display: flex;
+   flex-direction: column;
+}
+
+.name_product {
+   font-weight: 700;
+   font-size: 62px;
+   margin-bottom: 8px;
+   font-family: Cabin;
+   margin: 0px;
+}
+
+.modules_product {
+   font-style: Medium;
+   font-weight: 500;
+   font-size: 31px;
+   margin: 0px;
+   color: rgba(26, 31, 22, 0.5);
+   font-family: Cabin;
+}
+
+.raring {
+   display: flex;
+   margin-top: 18px;
+}
+
+.balls {
+   color: #12805D;
+   font-size: 20px;
+   font-weight: 400;
+}
+
+.price_product {
+   padding: 16px 0px 8px 0px;
+   font-weight: 500;
+   font-size: 31px;
+}
+
+.short-description {
+   font-weight: 400;
+   font-size: 20px;
+   color: #1A1F16;
+}
+
+.button-add_to_bag {
+   width: 174px;
+   height: 47px;
+   padding: 0px;
+   margin-top: 24px;
+   margin-bottom: 48px;
+   margin-right: 25px;
+   border-radius: 14px;
+   display: flex;
+   align-self: flex-end;
+   justify-content: center;
+   gap: 9px;
+   align-items: center;
+   background-color: #1A1F16;
+
+}
+
+.bottom-add_to_bag img {
+   width: 19px;
+   height: 22px;
+
+}
+
+.button-add_to_bag p {
+   color: #fff;
+   font-weight: 500;
+   font-size: 20px;
+
+}
+
+.line-2 {
+   width: 100%;
+   height: 3px;
+   background-color: #1A1F16;
+}
+
+.bottom-header-description {
+   font-weight: 500;
+   font-size: 32px;
+   margin-top: 32px;
+}
+
+.bottom-description {
+   margin-top: 8px;
+}

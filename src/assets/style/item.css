@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+.item {
+   display: flex;
+   flex-direction: column;
+   width: 224px;
+   height: 397px;
+   padding: 30px;
+   font-family: Cabin;
+}
+
+.img_cart {
+   border-radius: 22px;
+   background-color: #fff;
+   width: 162px;
+   height: 202px;
+   padding: 16px;
+   object-fit: contain;
+}
+
+.item__name {
+   max-width: 100%;
+   padding-top: 16px;
+   font-weight: 500;
+   font-size: 20px;
+   -webkit-line-clamp: 1;
+   text-overflow: ellipsis;
+   overflow: hidden;
+   white-space: nowrap;
+}
+
+.item__model {
+   color: #60695C;
+   font-size: 16px;
+   font-weight: 400;
+   padding-top: 8px;
+
+
+}
+
+
+.item-bloc-price-basket {
+   display: flex;
+   align-items: center;
+
+   padding: 21px 0 0 8px;
+
+}
+
+.content__item {
+   padding: 8px;
+}
+
+.item-price {
+   font-weight: 500;
+   font-size: 20px;
+   flex: 1 1 auto;
+
+}
+
+.item-bloc-price-basket img {
+   width: 34px;
+   height: 34px;
+   border-radius: 9px;
+
+}
